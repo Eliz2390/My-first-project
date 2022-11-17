@@ -9,3 +9,17 @@ h2{
 h1{
     text-align: center;
 }
+body{
+    background-image: linear-gradient(ghostwhite,  tan, plum);
+    width: 800px;
+    height: 750px;
+}
+h1:hover{
+    font-style: italic;
+}
+.footer:hover{
+    font-style: italic;
+}
+
+
+
