@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+.hero-Captain-America {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid ;
+    margin-top: 50px;
+    background-image: linear-gradient( blue, pink );
+}
+.card {
+    position: absolute;
+    height: 90px;
+    width: 66px;
+}
+img{
+    position: relative;
+    top: 35px;
+    width: 80px;
+    height: 145px;
+    flex-wrap: wrap;
+}
+.hero-iron-man {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid ;
+    margin-top: 50px;
+    background: linear-gradient(red, blue);
+}
+
+.hero-black-widow{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid ;
+    margin-top: 50px;
+    background: linear-gradient(100deg, black, purple);
+}
+.text{
+    color: #fff;
+}
+.hero-spider-man{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid ;
+    margin-top: 50px;
+    background: linear-gradient( red, black);
+}
+.header{
+    position: relative;
+    top: 46px;
+    width: 80px;
+    height: 145px;
+}

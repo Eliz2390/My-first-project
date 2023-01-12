@@ -1,0 +1,266 @@
+body {
+    width: 650px;
+}
+
+.field {
+    width: 640px;
+    border: 1px solid #000; 
+}
+
+.main {
+    display: flex;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+.rook-left-white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 35px;
+    top: 24px
+}
+
+.rook-right-white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    right: 570px;
+    top: 24px
+}
+
+.knight-left-white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 112px;
+    top: 24px
+}
+
+.knight-right-white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    right: 650px;
+    top: 24px
+}
+
+.bishop-left-white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 198px;
+    top: 24px
+}
+
+.bishop-right-white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    right: 732px;
+    top: 24px
+}
+
+.queen_white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 270px;
+    top: 24px
+}
+
+.king_white {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 350px;
+    top: 24px
+}
+
+.pawn-white-1 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 35px;
+    top: 107px
+}
+
+.pawn-white-2 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 118px;
+    top: 107px
+}
+
+.pawn-white-3 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 196px;
+    top: 107px
+}
+
+.pawn-white-4 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 275px;
+    top: 107px
+}
+
+.pawn-white-5 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 355px;
+    top: 107px
+}
+
+.pawn-white-6 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 437px;
+    top: 107px
+}
+
+.pawn-white-7 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 515px;
+    top: 107px
+}
+
+.pawn-white-8 {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    left: 598px;
+    top: 107px
+}
+.pawn-white-9{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 35px;
+    top: 509px
+}
+.pawn-white-10{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 115px;
+    top: 509px
+}
+.pawn-white-11{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 195px;
+    top: 509px
+}
+.pawn-white-12{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 275px;
+    top: 509px
+}
+.pawn-white-13{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 356px;
+    top: 509px
+}
+.pawn-white-14{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 435px;
+    top: 509px
+}
+.pawn-white-15{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 515px;
+    top: 509px
+}
+.pawn-white-16{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 597px;
+    top: 509px
+}
+.rook-left-black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 34px;
+    top: 589px
+}
+.rook-right-black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 593px;
+    top: 589px
+}
+.knight-left-black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 118px;
+    top: 589px
+}
+.knight-right-black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 515px;
+    top: 589px
+}
+.bishop-left-black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 195px;
+    top: 589px
+}
+.bishop-right-black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 440px;
+    top: 589px
+}
+.queen_black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 270px;
+    top: 589px
+}
+.king_black{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 355px;
+    top: 589px
+}
+
+
+
+
+
+

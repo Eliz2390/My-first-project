@@ -1,0 +1,165 @@
+* {
+    margin: auto;
+}
+body{
+    background-color: rgb(121, 194, 233);
+}
+
+.stovbur{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    background-color: saddlebrown;
+    left: 49%;
+}
+
+.lyst-1{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 110px solid green;
+}
+
+.lyst-2{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 90px solid green;
+    margin-top: -30px;
+    border-left-width: 120px;
+    border-right-width: 120px;
+    border-bottom-width: 130px;
+}
+
+.lyst-3{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 90px solid green;
+    margin-top: -50px;
+    border-left-width: 140px;
+    border-right-width: 140px;
+    border-bottom-width: 150px
+}
+
+.ball {
+    height: 40px;
+    left: 390px;
+    position: absolute;
+    top: 345px;
+    width: 40px;
+    -webkit-border-radius: 40px;
+    -webkit-box-shadow: 0 0 5px #777;
+}
+
+.ball_red {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 41%;
+    left: 43%;
+    background-color: #c8171f;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+}
+
+.ball_blue {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    background-color: #00a1ee;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+}
+
+.ball_green {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 43%;
+    left: 49%;
+    background-color: #4d8d00;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+}
+
+.ball_red_rsmall, .ball_green_gsmall, .ball_blue_bsmall {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+}
+
+.ball_red_small {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    left: 52%;
+    background-color: #c8171f;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);
+}
+
+.ball_blue_small {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 13%;
+    left: 49%;
+    background-color: #00a1ee;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+
+}
+
+.ball_green_small{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 11%;
+    left: 44.5%;
+    background-color: #4d8d00;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%);
+
+}
+
+.ball_red_middle{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    top: 27%;
+    left: 49%;
+    background-color: #c8171f;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #c8171f 70%);  
+}
+
+.ball_blue_middle{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    background-color: #00a1ee;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #00a1ee 70%);
+}
+
+.ball_green_middle{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    top: 24%;
+    left: 52.5%;
+    background-color: #4d8d00;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #4d8d00 70%); 
+}
+
+
