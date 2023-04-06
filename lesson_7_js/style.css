@@ -1,0 +1,101 @@
+* {
+    margin: auto;
+}
+
+.container {
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+}
+
+.left-part {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.right-part {
+    width: 40% ;
+    height: 100%;
+    background-color: yellow;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    margin-top: 11px;
+    margin-bottom: 25px;
+}
+.icon_1 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -66px;
+}
+
+.icon_2  {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 79px;
+    margin-right: 57px;
+    
+}
+
+.icon_3 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -45px;
+} 
+
+.input_1 {
+    height: 20px; 
+    margin-top: -3px;
+    margin-bottom: 12px;
+}
+
+.input_2 {
+    height: 20px;
+}
+
+h1 {
+    color: sandybrown;
+}
+
+.message {
+    height: 90px;
+    width: 200px;
+}
+
+h4 {
+    margin-top: -7px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+button {
+   width: 100px;
+   height: 30px;
+   margin-top: 25px;
+   margin-bottom: 20px;
+}
+
+

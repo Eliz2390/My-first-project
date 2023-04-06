@@ -1,0 +1,41 @@
+.station{
+position: relative;
+width: 500px;
+height: 500px;
+border: 2px solid black;
+
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+    border-radius: 4px;
+
+    width: 100px;
+    height: 50px;
+}
+
+.bth-left, .bth-right, .bth-up, .bth-down{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: yellow;
+    border-radius: 4px;
+
+    width: 100px;
+    height: 50px;
+} 
+
+.block{
+    position: absolute;
+}
+

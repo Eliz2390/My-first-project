@@ -1,0 +1,72 @@
+h1 {
+   color: aquamarine;
+   margin-left: 508px;
+}
+
+.container {
+   display: flex;
+}
+
+.start-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: violet;
+    border-radius: 4px;
+
+    width: 100px;
+    height: 30px;
+
+    margin-top: 69px;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: gold ;
+    border-radius: 4px;
+  
+    width: 100px;
+    height: 30px;
+}
+
+.top-score{
+    width: 200px;
+    height: 500px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 435px;
+}
+
+.save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: brown;
+    border-radius: 4px;
+  
+    width: 100px;
+    height: 30px;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: darkorchid ;
+    border-radius: 4px;
+  
+    width: 100px;
+    height: 30px;
+}
+
+
