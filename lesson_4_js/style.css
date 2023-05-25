@@ -20,19 +20,21 @@ align-items: flex-end;
 
     width: 100px;
     height: 50px;
+    margin: 6px;
 }
 
 .bth-left, .bth-right, .bth-up, .bth-down{
     display: flex;
 
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 
     background-color: yellow;
     border-radius: 4px;
 
     width: 100px;
     height: 50px;
+    margin: 7px;
 } 
 
 .block{

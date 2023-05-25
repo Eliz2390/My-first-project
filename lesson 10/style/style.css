@@ -33,6 +33,7 @@
     width: 397px;
     height: 535px;
     margin-top: 35px;
+    margin-left: 59px;
     font-size: 15px;
     line-height: 16px;
     color: #000000;
@@ -44,7 +45,7 @@
     line-height: 22px;
     color: #000000;
     font-family: "Arial";
-    margin-bottom: 333px;
+    margin-bottom: 329px;
 }
 .main{
     display: flex; 
@@ -70,5 +71,9 @@
 }
 h4-red{
     color: red;
+}
+
+ul {
+    padding-left: 10px ;
 }
 

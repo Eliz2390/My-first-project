@@ -31,7 +31,7 @@ function addToTop() {
     let date = new Date().toLocaleString()
     let top = document.querySelector('.top-score') 
     top.insertAdjacentHTML('beforeend', `
-    <li>${date}${count}</li>`)
+    <li>${date}     ${count}</li>`)
 }
 
 

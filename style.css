@@ -5,14 +5,18 @@
 
 .container {
     max-width: 1000px;
-    width: 90%;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;;
 }
+
 .header, .main, .footer {
     width: 100%;
-    background-image: linear-gradient(100deg, rgb(226, 240, 98), rgb(255, 76, 124) );
+    background-image: linear-gradient(100deg, rgb(230, 255, 91),rgb(250, 243, 192), rgb(199, 207, 42));
     margin-top: 10px;
     margin-bottom: 20px;
-    border-radius: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .header-inner {
@@ -20,31 +24,39 @@
     text-align: center;
 }
 
-.main-inner {
+.main-inner, .footer-inner {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    border-radius: 2px ;
+
 }
+/* .main-inner{
+    justify-content: space-around;
+} */
 
 .card {
     position: relative;
+    padding: 5px;
     margin: 30px;
     /* float: left; */
-    width: 19%;
+    width: 18%;
     justify-content: space-between;
-    background-color:lemonchiffon
+    background-color:lemonchiffon;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;  
 }
 
 
 body{
-    background-image: linear-gradient(100deg, rgb(143, 205, 140),rgb(210, 238, 250), rgb(233, 115, 186));
+    background-image: linear-gradient(100deg, rgb(226, 240, 98), rgb(255, 76, 124) );
     width: 1000px;
     height: 1000px;
 }
 
 .card:hover {
     font-style: italic;
+    box-shadow: 0px 0px 43px 22px rgb(255, 235, 103);
 }
 
  .card:hover .card-title{
@@ -52,13 +64,37 @@ body{
  }
 
 .header:hover{
-    box-shadow: 0px 0px 43px 22px rgb(55, 54, 52);
+    box-shadow: 0px 0px 43px 22px rgb(255, 235, 103);
 }
 
-
-.footer-inner {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%s;
-    padding: 10px;
+@media (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+    .card {
+        width: 30%;
+    }
 }
+
+@media (max-width: 979px) {
+    .container {
+        width: 768px;
+    }
+    .card {
+        width: 47%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 480px;
+    }
+    .card {
+        width: 30%;
+    }
+}
+
+.selected {
+    opacity: 0.6;
+  }
+
